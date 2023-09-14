@@ -1,4 +1,4 @@
-export interface Concepto{
+export interface ConceptoModel{
     id: number;
     nombre: string;
     laborable: boolean;

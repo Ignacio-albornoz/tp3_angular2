@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatTableModule} from '@angular/material/table';
 
@@ -17,6 +18,7 @@ import { ConceptoComponent } from './components/concepto/concepto.component';
   imports: [
     BrowserModule,
     MatTableModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
